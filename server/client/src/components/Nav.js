@@ -79,6 +79,7 @@ const NavUl = styled.ul`
   flex-direction: row;
   justify-content: flex-end;
   list-style: none;
+  margin-top: -20px;
 
   li:first-child {
     float: left;
