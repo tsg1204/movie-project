@@ -12,6 +12,7 @@ import MovieList from './components/MovieList'
 import MovieDetail from './components/MovieDetail'
 import Signup from './components/auth/Signup';
 import Signin from './components/auth/Signin';
+//some changes
 
 const store = createStore(rootReducer, {}, applyMiddleware(thunk));
 
