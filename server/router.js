@@ -1,6 +1,7 @@
 const Authentication = require('./controllers/authentication')
 const passportService = require('./services/passport')
 const passport = require('passport')
+//testing
 
 const requireAuth = passport.authenticate('jwt', { session: false })
 const requireSignin = passport.authenticate('local', { session: false })
